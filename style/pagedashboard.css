@@ -1,0 +1,82 @@
+
+body,
+h1,
+h5 {
+    font-family: Times New Roman", Times, serif;
+
+}
+
+body,
+html {
+    height: 100%
+}
+
+/* .bgimg {
+    background-image: url("images/bg8.jpg");
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+} */
+
+/* Style for the table */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+/* Style for table headers */
+.table th {
+    background-color: #483dbd;
+    color: #fff;
+    padding: 8px;
+    text-align: left;
+    border: 1px solid #9370;
+}
+
+.table th,
+.table td {
+    padding: 8px;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+.table tr:nth-child(odd) {
+    background-color: #E6E6FA;
+}
+
+.table tr:hover {
+    background-color: #ddd;
+}
+
+/* Alternate row background color */
+.table tr:nth-child(even) {
+    background-color: #D8BFD8;
+}
+
+/* Hover effect on table rows */
+.table tr:hover {
+    background-color: #ddd;
+}
+
+.w3-button {
+    background-color: rgba(5, 1, 6, 0.5);
+    /* Adjust the alpha value (0.5) for the desired transparency */
+    color: #000;
+    font-family: "Monaco", monospace;
+    font-size: 16px;
+}
+
+.w3-display-topright {
+    color: white;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+}
+
